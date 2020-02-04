@@ -19,3 +19,16 @@ Das Programm
 
 Wir haben mit Android Studios gearbeitet. Eine Entwicklungsumgebung, die einem eine App generiert, welche man dann nach seinen Wünschen programmieren kann. 
 So haben wir angefangen mit einem "Hello World", einem Tutorial welches man meistens zu Beginn einmal fertigstellt. Durch verschiedene Vorgaben an Buttons und Textfeldern, welche man theoretisch gesehen auch selber programmieren könnte, kann man erste eigene Apps entwickeln. Begonnen haben wir erstmal mit einer App angefangen, wo man einen Text eingibt und diesen dann durch senden auf dem Bildschirm anzeigen lässt. Dadurch lernt man die verschiedenen Seiten (MainActivity.xml und MainActivity.java) kennen und lernt wo was programmiert wird. Dadruch
+
+
+
+Plan: 
+- Cara: Design Icon
+- Jojo: Kamera drehen; Java durchlesen
+
+Fokus:
+- anderer Bereich Informatik 
+-> wie arbeitet man mit Java und Entwicklungsentgebung (Apps vom Anfang und dort erklären was wir dort selber gemacht haben, vielleicht auch Dumme Sprüche)
+-> wie arbeitet man mit einer Bibliothek 
+-> wie findet man code im Internet
+=> über anfangsapps zeigen wie man sich damti auseinandergesetzt hat.
