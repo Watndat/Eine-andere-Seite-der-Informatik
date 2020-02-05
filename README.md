@@ -32,3 +32,6 @@ Fokus:
 -> wie arbeitet man mit einer Bibliothek 
 -> wie findet man code im Internet
 => über anfangsapps zeigen wie man sich damti auseinandergesetzt hat.
+
+
+
