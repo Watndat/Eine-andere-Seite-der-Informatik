@@ -1,4 +1,4 @@
-# Projektbeschreibunng
+# Projektbeschreibung
 
 [Die Idee!](#1)
 
