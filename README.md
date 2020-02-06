@@ -46,8 +46,9 @@ Fokus:
 3. Username + Passwort (TestPasswortundUsername)
     Immer noch mit Android Studios gearbeitet, selber beigebracht wie man Username und Passwort programmiert
 4. Dumme Sprüche (komplett selber, Weihnachten)
-    Bevor man 
+    Bevor man mit OpenCv angfängt, nochmal eine App selber programmiert. Bilder eingefügt, wenn man auf die klickt, wird eine Audiodatei abgespielt. Wenn man auf den nächsten drückt, wird die vorherige datei gestoppt und die neue wird abgespielt. Hierbei haben wir gelernt, wie man Appicon und farben in der App die voher voreingestellt waren ändern kann.
 5. Beispiel OpenCV (Test_OpenCV -> vom Tutorial Farben erkennen)
+    Tutorial wie 
 6. Kamera anzeigen (Display_Camera_2 -> Inder)
 
 ## Die App <a name="4"></a>
