@@ -39,14 +39,19 @@ Fokus:
 
 ## Der Weg zur App <a name="3"></a>
 
+1. My first App (Hello World, was schreiben und dann schicken das steht dann da)
+    Um Android Studios kennen zulernen und erste App per tutorial programmmiert
+2. Passwort (TestPassword2)
+    Weiter an Android Studios gearbeitet, und selber durch geklickt und anfgefangen Apps selber zu programmieren. Angefangen mit       Passwort festlegen und dann zwei Screens danach einmal mit Hallo anderes mit "Your Password is wrong"
+3. Username + Passwort (TestPasswortundUsername)
+    Immer noch mit Android Studios gearbeitet, selber beigebracht wie man Username und Passwort programmiert
+4. Dumme Sprüche (komplett selber, Weihnachten)
+    Bevor man 
+5. Beispiel OpenCV (Test_OpenCV -> vom Tutorial Farben erkennen)
+6. Kamera anzeigen (Display_Camera_2 -> Inder)
+
 ## Die App <a name="4"></a>
 
-1. My first App (Hello World, was schreiben und dann schicken das steht dann da)
-2. Passwort (TestPassword2)
-3. Username + Passwort (TestPasswortundUsername)
-3,5. Dumme Sprüche (komplett selber, Weihnachten)
-4. Beispiel OpenCV (Test_OpenCV -> vom Tutorial Farben erkennen)
-5. Kamera anzeigen (Display_Camera_2 -> Inder)
 6. Gesichter erkennen (Face_Detection -> Internet)
 
 
