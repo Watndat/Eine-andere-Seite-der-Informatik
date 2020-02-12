@@ -1,14 +1,156 @@
+### Inhaltsverzeichnis
+
+[Unser Projekt](#1)
+
+[AndroidStudios](#2)
+    [My first App](#3)
+    [Test_2](#4)
+    [Test_3](#5)
+    [Test_Password](#6)
+    [TestPassword2](#7)
+    [TestPasswordandUsername](#8)
+    [Dumme Srprüche](#9)
+
+[OpenCV](#10)
+    [Test_OpenCv](#11)
+    [Display_Camera_2](#12)
+    [Face_Detection](#13)
+
+[Schlusswort](#14)
+    
+    
+
+
+## Unser Projekt <a name="1"></a>
+
+Nach dem wir im letzten Halbjahr über Code.org ein eigenes Spiel programmiert hatten und dadurch JavaScript als Programmiersprache kennengelernt hatten, wollten wir uns dieses Halbjahr an was neuem probieren. 
+Wie programmiert man mit Java? Wie arbeitet man mit einer neuen Programmierumgebung und erstellt Apps? Und zu guter letzt noch wie arbeitet man mit einer Bibliothek?
+All diese Frage bilden unser Projekt fürs zweite Halbjahr. Ein Halbjahr wo wir viel lernen wollen, um die unterschiedlichen Seiten der Informatik kennenzulernen.
+Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tutorials programmiert und später dann selber. Als wir uns sicher genung mit AndroidStudios fühlten und wir Java auch gut verstanden haben, sind wir zum zweitern und deutlich schwierigern Teil unseres Lernprozesses übergegangen. Wir haben die Bibliothek OpenCV in AndroidStudios eingbunden. Um mit der Bibliothek zu arbeiten, haben wir uns überlegt eine App zubauen, welche Gesichter erkennt. Die Funtkionen dafür sind in der Bibliothek schon vorhanden. Hierbei müssen wir nur lernen, wie wir diese Funktionen aus der Bibliothek aufrufen und Code aus dem Internet raussuchen und verwenden können, damit die App am Ende auch funktioniert.
+
+## AndroidStudios
+
+# My first App
+
+Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tutorial( https://developer.android.com/training/basics/firstapp ) gefolgt, mit dem wir "Hello World" programmiert haben. Hierbei haben wir auch den ersten Überblick bekommen, wie AndroidStudios aufgebaut ist. Diese App wurde im Tutorial soweit von Hello World umprogrammiert, dass wir ein Textfeld am Ende hatten, in den man eine Nachricht eingeben konnten. Danach konnte man auf Senden drücken, um die eingetippte Nachricht auf dem Bildschirm anzeigen zulassen. 
+
+BILD DER APP 
+
+CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber gelernt, weil Tutorial
+ 
+# Test_2
+...
+BILD DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+# Test_3
+...
+BILDER DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+# Test_Password
+...
+BILDER DER APP
+CODE-> was haben wir gelernt und was haben wir selber geschrieben
+
+# TestPassword2
+...
+BILDER DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+# TestPasswortandUsername
+...
+BILDER DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+# Dumme Sprüche
+...
+BILDER DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+## OpenCV
+
+# Test_OpenCV
+...
+BILDER DER APP
+CODE-> was haben wir gelernt und was haben wir selber geschrieben
+
+# Display_Camera_2
+...
+BILDER DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+# Face_Detection
+...
+BILDER DER APP
+CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+
+
+## Schlusswort
+
+Abschließend können wir zu unserem Projekt sagen, dass es uns sehr viel Spaß gemacht hat. Dabei haben wir viel gelernt und nochmal einen weiteren Teil der Informatik kennengelernt. Allerdings muss man sagen, dass vielleicht der letzte Teil des Projektes mit dem Face_Detection zu schwierig für Anfänger wie uns war. Trotzdem muss man auch da sagen, obwohl dieser Teil des Projektes aus viel Code aus dem Internet raussuchen und verstehen bestand und dies oft Stunden in Anspruch genommen hat und man nicht wirklich das Gefühl hatte, das man etwas schaffen würde, hatten wir auch daran sehr viel Spaß. Und dieses Projekt hat uns gezeigt wie viel Schichtig die Informatik ansich ist und das man nicht nur stumm vorsich hin programmiert, sondern auch viel mit Recherche und verstehen zutun hat.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Projektbeschreibung
 
-[Die Idee!](#1)
+[Die Idee!]
 
-[Das Programm](#2)
+[Das Programm]
 
-[Der Weg zur App](#3)
+[Der Weg zur App]
 
-[Die App](#4)
+[Die App]
 
-[Schlusswort](#5)
+[Schlusswort]
 
 ## Die Idee <a name="1"></a>
 
