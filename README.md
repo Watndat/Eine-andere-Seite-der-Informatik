@@ -12,9 +12,9 @@ Schuljahr 2019/2020
 <details>
     <summary>AndroidStudios</summary>
     
-   [My first App](#3)
+[My first App](#3)
    
-   [Test_2](#4)
+[Test_2](#4)
 
 [Test_3](#5)
 
@@ -27,7 +27,7 @@ Schuljahr 2019/2020
 [Dumme Srprüche](#9)
     </details>
     
-<deatils>
+<details>
     <summary>OpenCv</summary>
 
 [Test_OpenCv](#11)
@@ -51,7 +51,7 @@ Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tuto
 
 ## AndroidStudios
 
-# My first App
+# My first App <a name="3"></a>
 
 Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tutorial( https://developer.android.com/training/basics/firstapp ) gefolgt, mit dem wir "Hello World" programmiert haben. Hierbei haben wir auch den ersten Überblick bekommen, wie AndroidStudios aufgebaut ist. Diese App wurde im Tutorial soweit von Hello World umprogrammiert, dass wir ein Textfeld am Ende hatten, in den man eine Nachricht eingeben konnten. Danach konnte man auf Senden drücken, um die eingetippte Nachricht auf dem Bildschirm anzeigen zulassen. 
 
@@ -59,56 +59,56 @@ BILD DER APP
 
 CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber gelernt, weil Tutorial
  
-# Test_2
+# Test_2 <a name="4"></a>
 ...
 BILD DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Test_3
+# Test_3 <a name="5"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Test_Password
+# Test_Password <a name="6"></a>
 ...
 BILDER DER APP
 CODE-> was haben wir gelernt und was haben wir selber geschrieben
 
-# TestPassword2
+# TestPassword2 <a name="7"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# TestPasswortandUsername
+# TestPasswortandUsername <a name="8"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Dumme Sprüche
+# Dumme Sprüche <a name="9"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
 ## OpenCV
 
-# Test_OpenCV
+# Test_OpenCV <a name="11"></a>
 ...
 BILDER DER APP
 CODE-> was haben wir gelernt und was haben wir selber geschrieben
 
-# Display_Camera_2
+# Display_Camera_2 <a name="12"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Face_Detection
+# Face_Detection <a name="13"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
 
 
-## Schlusswort
+## Schlusswort <a name="14"></a>
 
 Abschließend können wir zu unserem Projekt sagen, dass es uns sehr viel Spaß gemacht hat. Dabei haben wir viel gelernt und nochmal einen weiteren Teil der Informatik kennengelernt. Allerdings muss man sagen, dass vielleicht der letzte Teil des Projektes mit dem Face_Detection zu schwierig für Anfänger wie uns war. Trotzdem muss man auch da sagen, obwohl dieser Teil des Projektes aus viel Code aus dem Internet raussuchen und verstehen bestand und dies oft Stunden in Anspruch genommen hat und man nicht wirklich das Gefühl hatte, das man etwas schaffen würde, hatten wir auch daran sehr viel Spaß. Und dieses Projekt hat uns gezeigt wie viel Schichtig die Informatik ansich ist und das man nicht nur stumm vorsich hin programmiert, sondern auch viel mit Recherche und verstehen zutun hat.
 
