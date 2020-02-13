@@ -1,9 +1,16 @@
-### Inhaltsverzeichnis
+# Eine andere Seite der Informatik - Java und 
+von Cara Klimmek und Johanna Grahl  
+Stormarnschule Ahrensburg  
+Klasse 12g  
+Schuljahr 2019/2020  
 
-# Unser Projekt
+
+## Inhaltsverzeichnis
+
+[Unser Projekt](#1)
 
 <details>
-<summary>AndroidStudios</summary>
+    <summary>AndroidStudios</summary>
     
 [My first App](#3)
 
@@ -21,7 +28,7 @@
     </details>
     
 <deatils>
-<summary>OpenCv</summary
+    <summary>OpenCv</summary>
 
 [Test_OpenCv](#11)
 
