@@ -32,7 +32,6 @@ Schuljahr 2019/2020
     
 <details>
     <summary>OpenCv</summary>
-
 [Test_OpenCv](#11)
 
 [Display_Camera_2](#12)
@@ -40,7 +39,8 @@ Schuljahr 2019/2020
 [Face_Detection](#13)
 </details>
 
-<details>Ein paar nette Worte zum Schluss</summary>
+<details>
+    <summary>Ein paar nette Worte zum Schluss</summary>
 [Schlusswort](#14)
     </details>
     
