@@ -12,9 +12,9 @@ Schuljahr 2019/2020
 <details>
     <summary>AndroidStudios</summary>
     
-    [My first App](#3)
-
-    [Test_2](#4)
+   [My first App](#3)
+   
+   [Test_2](#4)
 
 [Test_3](#5)
 
