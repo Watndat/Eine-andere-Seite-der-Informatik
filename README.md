@@ -1,6 +1,6 @@
 ### Inhaltsverzeichnis
 
-[Unser Projekt](#1)
+# Unser Projekt
 
 <details>
 <summary>AndroidStudios</summary>
