@@ -8,9 +8,9 @@ Schuljahr 2019/2020
 ## Inhaltsverzeichnis
 
 <details>
-    <summary>Projektbeschreigung</summary>
+    <summary>Projektbeschreibung</summary>
 [Unser Projekt](#1)
-    </summary>
+    </details>
 
 <details>
     <summary>AndroidStudios</summary>
@@ -42,7 +42,7 @@ Schuljahr 2019/2020
 
 <details>Ein paar nette Worte zum Schluss</summary>
 [Schlusswort](#14)
-    </summary>
+    </details>
     
     
 
