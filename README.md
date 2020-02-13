@@ -4,21 +4,31 @@
 
 <details>
 <summary>AndroidStudios</summary>
+    
 [My first App](#3)
+
 [Test_2](#4)
+
 [Test_3](#5)
+
 [Test_Password](#6)
+
 [TestPassword2](#7)
+
 [TestPasswordandUsername](#8)
+
 [Dumme Srprüche](#9)
     </details>
     
 <deatils>
 <summary>OpenCv</summary
+
 [Test_OpenCv](#11)
+
 [Display_Camera_2](#12)
+
 [Face_Detection](#13)
-    </details>
+</details>
 
 [Schlusswort](#14)
     
