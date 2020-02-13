@@ -9,8 +9,9 @@ Schuljahr 2019/2020
 
 <details>
     <summary>Projektbeschreibung</summary>
+    
 [Unser Projekt](#1)
-    </details>
+</details>
 
 <details>
     <summary>AndroidStudios</summary>
@@ -18,6 +19,7 @@ Schuljahr 2019/2020
 [My first App](#3)
    
 [Test_2](#4)
+
 
 [Test_3](#5)
 
@@ -32,6 +34,7 @@ Schuljahr 2019/2020
     
 <details>
     <summary>OpenCv</summary>
+    
 [Test_OpenCv](#11)
 
 [Display_Camera_2](#12)
@@ -41,13 +44,14 @@ Schuljahr 2019/2020
 
 <details>
     <summary>Ein paar nette Worte zum Schluss</summary>
+    
 [Schlusswort](#14)
     </details>
     
     
 
 
-## Unser Projekt <a name="1"></a>
+### Unser Projekt <a name="1"></a>
 
 Nach dem wir im letzten Halbjahr über Code.org ein eigenes Spiel programmiert hatten und dadurch JavaScript als Programmiersprache kennengelernt hatten, wollten wir uns dieses Halbjahr an was neuem probieren. 
 Wie programmiert man mit Java? Wie arbeitet man mit einer neuen Programmierumgebung und erstellt Apps? Und zu guter letzt noch wie arbeitet man mit einer Bibliothek?
@@ -56,7 +60,7 @@ Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tuto
 
 ## AndroidStudios
 
-# My first App <a name="3"></a>
+### My first App <a name="3"></a>
 
 Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tutorial( https://developer.android.com/training/basics/firstapp ) gefolgt, mit dem wir "Hello World" programmiert haben. Hierbei haben wir auch den ersten Überblick bekommen, wie AndroidStudios aufgebaut ist. Diese App wurde im Tutorial soweit von Hello World umprogrammiert, dass wir ein Textfeld am Ende hatten, in den man eine Nachricht eingeben konnten. Danach konnte man auf Senden drücken, um die eingetippte Nachricht auf dem Bildschirm anzeigen zulassen. 
 
@@ -64,49 +68,49 @@ BILD DER APP
 
 CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber gelernt, weil Tutorial
  
-# Test_2 <a name="4"></a>
+### Test_2 <a name="4"></a>
 ...
 BILD DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Test_3 <a name="5"></a>
+### Test_3 <a name="5"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Test_Password <a name="6"></a>
+### Test_Password <a name="6"></a>
 ...
 BILDER DER APP
 CODE-> was haben wir gelernt und was haben wir selber geschrieben
 
-# TestPassword2 <a name="7"></a>
+### TestPassword2 <a name="7"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# TestPasswortandUsername <a name="8"></a>
+### TestPasswortandUsername <a name="8"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Dumme Sprüche <a name="9"></a>
+### Dumme Sprüche <a name="9"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
 ## OpenCV
 
-# Test_OpenCV <a name="11"></a>
+### Test_OpenCV <a name="11"></a>
 ...
 BILDER DER APP
 CODE-> was haben wir gelernt und was haben wir selber geschrieben
 
-# Display_Camera_2 <a name="12"></a>
+### Display_Camera_2 <a name="12"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-# Face_Detection <a name="13"></a>
+### Face_Detection <a name="13"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
