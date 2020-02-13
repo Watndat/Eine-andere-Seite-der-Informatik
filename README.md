@@ -1,4 +1,4 @@
-# Eine andere Seite der Informatik - Java und 
+# Eine andere Seite der Informatik - Java und OpenCv
 von Cara Klimmek und Johanna Grahl  
 Stormarnschule Ahrensburg  
 Klasse 12g  
