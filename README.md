@@ -14,6 +14,14 @@ Schuljahr 2019/2020
 </details>
 
 <details>
+    <summary>Programmierumgebung und OpenCV</summary>
+
+[Android Studios](#2)
+
+[OpenCV](#2.5)
+</details>
+
+<details>
     <summary>AndroidStudios</summary>
     
 [My first App](#3)
@@ -47,7 +55,9 @@ Schuljahr 2019/2020
 [Schlusswort](#14)
     </details>
     
-    
+### Android Studios <a name="2"></a>
+
+### OpenCV <a name="2.5"></a>
 
 
 ### Unser Projekt <a name="1"></a>
@@ -61,6 +71,7 @@ Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tuto
 
 ### My first App <a name="3"></a>
 
+(Test_2)
 Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tutorial
 (https://developer.android.com/training/basics/firstapp ) gefolgt, mit dem wir "Hello World" programmiert haben. Hierbei haben wir auch den ersten Überblick bekommen, wie AndroidStudios aufgebaut ist. Diese App wurde im Tutorial soweit von Hello World umprogrammiert, dass wir ein Textfeld am Ende hatten, in den man eine Nachricht eingeben konnten. Danach konnte man auf Senden drücken, um die eingetippte Nachricht auf dem Bildschirm anzeigen zulassen. 
 
@@ -68,23 +79,12 @@ BILD DER APP (Vidoe)
 
 CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber gelernt, weil Tutorial
 
-=> neu schreiben weil die sich in AndroidStudios nicht öffnet
+<details>
+    <summary>activity_main.xml</summary>
+     Hier haben wir durch die Widgets die zwei Felder "Write a message" und der "Send" Button auf den Bildschirm eingefügt. Diese haben wir dann mit einander verknüpft, damit diese nicht auf auf den Ursprung also 0/0/0 (oben links in der Ecke) springt. Wir haben sie nicht nur untereindander verknüpft, sondern auch mit den R
+    
+</details>
  
-### Test_2 <a name="4"></a>
-...
-BILD DER APP
-CODE -> was haben wir gelernt und was haben wir selber geschrieben
-
-### Test_3 <a name="5"></a>
-...
-BILDER DER APP
-CODE -> was haben wir gelernt und was haben wir selber geschrieben
-
-### Test_Password <a name="6"></a>
-...
-BILDER DER APP
-CODE-> was haben wir gelernt und was haben wir selber geschrieben
-
 ### TestPassword2 <a name="7"></a>
 ...
 BILDER DER APP
