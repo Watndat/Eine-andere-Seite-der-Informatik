@@ -74,8 +74,6 @@ Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tuto
 
 ## AndroidStudios
 
----
-
 ### My first App <a name="3"></a>
 
 (Test_2)
