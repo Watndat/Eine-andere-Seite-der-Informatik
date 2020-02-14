@@ -67,6 +67,8 @@ Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tut
 BILD DER APP (Vidoe)
 
 CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber gelernt, weil Tutorial
+
+=> neu schreiben weil die sich in AndroidStudios nicht öffnet
  
 ### Test_2 <a name="4"></a>
 ...
