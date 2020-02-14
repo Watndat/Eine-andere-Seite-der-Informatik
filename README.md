@@ -20,7 +20,6 @@ Schuljahr 2019/2020
    
 [Test_2](#4)
 
-
 [Test_3](#5)
 
 [Test_Password](#6)
@@ -62,7 +61,9 @@ Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tuto
 
 ### My first App <a name="3"></a>
 
-Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tutorial( https://developer.android.com/training/basics/firstapp ) gefolgt, mit dem wir "Hello World" programmiert haben. Hierbei haben wir auch den ersten Überblick bekommen, wie AndroidStudios aufgebaut ist. Diese App wurde im Tutorial soweit von Hello World umprogrammiert, dass wir ein Textfeld am Ende hatten, in den man eine Nachricht eingeben konnten. Danach konnte man auf Senden drücken, um die eingetippte Nachricht auf dem Bildschirm anzeigen zulassen. 
+Dies ist die erste App welche wir programmiert haben. Hierbei sind wir einem Tutorial
+
+(https://developer.android.com/training/basics/firstapp ) gefolgt, mit dem wir "Hello World" programmiert haben. Hierbei haben wir auch den ersten Überblick bekommen, wie AndroidStudios aufgebaut ist. Diese App wurde im Tutorial soweit von Hello World umprogrammiert, dass wir ein Textfeld am Ende hatten, in den man eine Nachricht eingeben konnten. Danach konnte man auf Senden drücken, um die eingetippte Nachricht auf dem Bildschirm anzeigen zulassen. 
 
 BILD DER APP 
 
