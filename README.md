@@ -57,8 +57,11 @@ Schuljahr 2019/2020
     
 ### Android Studios <a name="2"></a>
 
+---
+
 ### OpenCV <a name="2.5"></a>
 
+---
 
 ### Unser Projekt <a name="1"></a>
 
@@ -67,7 +70,11 @@ Wie programmiert man mit Java? Wie arbeitet man mit einer neuen Programmierumgeb
 All diese Frage bilden unser Projekt fürs zweite Halbjahr. Ein Halbjahr wo wir viel lernen wollen, um die unterschiedlichen Seiten der Informatik kennenzulernen.
 Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tutorials programmiert und später dann selber. Als wir uns sicher genung mit AndroidStudios fühlten und wir Java auch gut verstanden haben, sind wir zum zweitern und deutlich schwierigern Teil unseres Lernprozesses übergegangen. Wir haben die Bibliothek OpenCV in AndroidStudios eingbunden. Um mit der Bibliothek zu arbeiten, haben wir uns überlegt eine App zubauen, welche Gesichter erkennt. Die Funtkionen dafür sind in der Bibliothek schon vorhanden. Hierbei müssen wir nur lernen, wie wir diese Funktionen aus der Bibliothek aufrufen und Code aus dem Internet raussuchen und verwenden können, damit die App am Ende auch funktioniert.
 
+---
+
 ## AndroidStudios
+
+---
 
 ### My first App <a name="3"></a>
 
@@ -85,20 +92,28 @@ CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber g
     
 </details>
  
+ ---
+ 
 ### TestPassword2 <a name="7"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+---
 
 ### TestPasswortandUsername <a name="8"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
+---
+
 ### Dumme Sprüche <a name="9"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+---
 
 ## OpenCV
 
@@ -107,17 +122,21 @@ CODE -> was haben wir gelernt und was haben wir selber geschrieben
 BILDER DER APP
 CODE-> was haben wir gelernt und was haben wir selber geschrieben
 
+---
+
 ### Display_Camera_2 <a name="12"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
+
+---
 
 ### Face_Detection <a name="13"></a>
 ...
 BILDER DER APP
 CODE -> was haben wir gelernt und was haben wir selber geschrieben
 
-
+---
 
 ## Schlusswort <a name="14"></a>
 
