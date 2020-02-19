@@ -86,7 +86,22 @@ CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber g
 
 <details>
     <summary>activity_main.xml</summary>
-     Hier haben wir durch die Widgets die zwei Felder "Write a message" und der "Send" Button auf den Bildschirm eingefügt. Diese haben wir dann mit einander verknüpft, damit diese nicht auf auf den Ursprung also 0/0/0 (oben links in der Ecke) springt. Wir haben sie nicht nur untereindander verknüpft, sondern auch mit den R
+     Hier haben wir durch die Widgets die zwei Felder "Write a message" und der "Send" Button auf den Bildschirm eingefügt. Diese haben wir dann miteinander und mit den Ränder verknüpft, damit diese nicht auf auf den Ursprung also 0/0/0 (oben links in der Ecke) springen.
+Außerdem haben wir beim "Send" Button die Aktion onClick definiert. Diese haben wir mit sendMessage belegt, welche die Verknüpfung zu MainActivity.java darstellt. 
+    (Bild von activity_main.xml)
+</details>
+
+<details>
+    <summary>MainActivity.java</summary>
+In der MainActivity.java ist die Verknüpfung zwischen dem Bildschirm, also was der Nutzer bei der App sieht, und den Aktionen die in unserem Fall zum Beipsiel aus dem Send-Button besteht.
+    Da wir im activity_main.xml den Button mit onClick sendMessage belegt haben, wird dies in der MainActivity.java ausgeführt. Dies wird in einer öffentlichen Klasse (public class) ausgeführt. Diese ist die allgemeine Klasse, welche 
+    
+    public void sendMessage (View view){
+        Intent intent = new Intent(this, NewScreen.class);
+        EditText editText = (EditText) findViewById(R.id.editText);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     
 </details>
  
