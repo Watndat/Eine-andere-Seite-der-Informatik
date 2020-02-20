@@ -97,7 +97,8 @@ Außerdem haben wir beim "Send" Button die Aktion onClick definiert. Diese haben
 <details>
     <summary>MainActivity.java</summary>
 In der MainActivity.java ist die Verknüpfung zwischen dem Bildschirm, also was der Nutzer bei der App sieht, und den Aktionen die in unserem Fall zum Beipsiel aus dem Send-Button besteht.
-    Da wir im activity_main.xml den Button mit onClick sendMessage belegt haben, wird dies in der MainActivity.java ausgeführt. Dies wird in einer öffentlichen Klasse (public class) ausgeführt. Diese ist die allgemeine Klasse, welche 
+    Da wir im activity_main.xml den Button mit onClick sendMessage belegt haben, wird dies in der MainActivity.java ausgeführt. Dies wird in einer öffentlichen Klasse (public class) ausgeführt. Diese ist die allgemeine Klasse, welche alle zugreifen können, und nicht geschützt ist. 
+In der allgemeinen public class, in der alle anderen Funktionen sind, haben wir die sendMessage Funktion auch als public void definert. Diese hat den Name sendMessage, damit dieser mit dem Send Button verknüpft ist.
     
     public void sendMessage (View view){
         Intent intent = new Intent(this, NewScreen.class);
