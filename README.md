@@ -88,7 +88,7 @@ CODE -> hierbei haben wir die onClick funktion kennengelernt und nichts selber g
     <summary>activity_main.xml</summary>
      Hier haben wir durch die Widgets die zwei Felder "Write a message" und der "Send" Button auf den Bildschirm eingefügt. Diese haben wir dann miteinander und mit den Ränder verknüpft, damit diese nicht auf auf den Ursprung also 0/0/0 (oben links in der Ecke) springen.
 Außerdem haben wir beim "Send" Button die Aktion onClick definiert. Diese haben wir mit sendMessage belegt, welche die Verknüpfung zu MainActivity.java darstellt. 
-    ![grafik](https://user-images.githubusercontent.com/54102292/74929480-e0a3dd00-53db-11ea-8f27-ebf076dcb6a5.png)
+![MyfirstApp_1](https://user-images.githubusercontent.com/54102292/74930037-15fcfa80-53dd-11ea-9a7a-d4f30fe29c1f.png)
     (Bild von activity_main.xml)
 </details>
 
