@@ -99,6 +99,10 @@ Außerdem haben wir beim "Send" Button die Aktion onClick definiert. Diese haben
 In der MainActivity.java ist die Verknüpfung zwischen dem Bildschirm, also was der Nutzer bei der App sieht, und den Aktionen die in unserem Fall zum Beipsiel aus dem Send-Button besteht.
     Da wir im activity_main.xml den Button mit onClick sendMessage belegt haben, wird dies in der MainActivity.java ausgeführt. Dies wird in einer öffentlichen Klasse (public class) ausgeführt. Diese ist die allgemeine Klasse, welche alle zugreifen können, und nicht geschützt ist. 
 In der allgemeinen public class, in der alle anderen Funktionen sind, haben wir die sendMessage Funktion auch als public void definert. Diese hat den Name sendMessage, damit dieser mit dem Send Button verknüpft ist.
+Als erstes haben wir einen neuen Intent erstellt. Diesen brauchen wir um dieses Activity (MainActivity) mit einer zweiten Activity (NewScreen) zuverknüpfen, wo später der eingegebene Text angezeigt wird.
+Um den Text zu erkennen, welcher eingegeben werden kann, wird der Text einmal als editText definiert. Dieser wird über findViewById mit dem Text belegt, welcher eingegeben wurde. 
+Um den Text an die andere Activity übergeben zu können, wurde mit dem String message gesagt, das der Text zum String gebracht werden soll. Um die message dann zum Intent gebracht wird, welcher mit der Activity NewScreen verknüpft ist. 
+Mit startActivity wird die ganze Aktion gestartet.
     
     public void sendMessage (View view){
         Intent intent = new Intent(this, NewScreen.class);
@@ -108,6 +112,19 @@ In der allgemeinen public class, in der alle anderen Funktionen sind, haben wir 
         startActivity(intent);
     
 </details>
+
+<details>
+    <summary>/activity_new_screen.xml</summary>
+    
+    
+    
+</details>
+    
+<details>
+    <summary>NewScreen.java</summary>
+    
+    
+ </details>
  
  ---
  
