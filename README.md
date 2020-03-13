@@ -57,9 +57,13 @@ Schuljahr 2019/2020
     
 ### Android Studios <a name="2"></a>
 
+Android Studios ist ein Programm mit dem jeder eigene Apps für Android Handys programmieren kann. Aufh Appel nutzer können damit arbeiten, das man sich eine Vorschau der App anzeigen lassen kann. Das Programm hat eine auf JetBrains IntelliJ IDEA basierte Software und setzt dementsprechend auf Java als Programmiersprache.
+
 ---
 
 ### OpenCV <a name="2.5"></a>
+
+Open CV ist eine öffentliche Bibliothek, die für Programmierer geschaffen wurde.
 
 ---
 
@@ -74,7 +78,6 @@ Begonnen haben wir mit AndroidStudios und haben dort einige Apps erst durch Tuto
 
 ## AndroidStudios
 
-Android Studios ist ein Programm mit dem jeder eigene Apps für Android Handys programmieren kann. Aufh Appel nutzer können damit arbeiten, das man sich eine Vorschau der App anzeigen lassen kann. Das Programm hat eine auf JetBrains IntelliJ IDEA basierte Software und setzt dementsprechend auf Java als Programmiersprache.
 
 ### My first App <a name="3"></a>
 
