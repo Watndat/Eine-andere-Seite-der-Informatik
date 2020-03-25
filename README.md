@@ -5,6 +5,69 @@ Klasse 12g
 Schuljahr 2019/2020  
 
 
+Einleitung:
+-  wie haben wir uns für das Projekt entschieden
+- was wollen wir damit lernen / Intention warum wir das gemacht haben
+-> wollten was anderes machen, als ein Spiel programmieren und JavaScript 
+-> wollten expliziet Java lernen und uns damit beschäftigen wie man eine app programmiert
+-> lernen, wie man mit einer Bibliothek arbeitet und diese mit der Programmierumgebung verknüpft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Inhaltsverzeichnis
 
 <details>
