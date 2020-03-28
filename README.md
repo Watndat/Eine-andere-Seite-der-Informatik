@@ -17,8 +17,8 @@ Einleitung:
 
 
 
-Nachdem wir im letzten Halbjahr auf Code.org mit JavaScript programmiert hatten, wollten wir uns in diesem Halbjahr mit einem, für uns neuen Bereich der Informatik beschäftigen. Die Entscheidungskriterien für unser Projekt hatten wir schnell festgelegt. Wir wollten mit der Programmiersprache Java arbeiten und eine App programmieren. So fiel unsere Wahl auf die Programmierumgebung Android Studio, da dort mit Java gearbeitet wird. Da wir nicht nur eine App programmieren wollten, sondern eigentlich ein App, welche Gesichter erkennt, brauchten wir noch eine Bibliothek. Dies musste eine Bibliothek für KI (künstliche Intelligenz) sein, dort fiel unsere Wahl auf OpenCV.
-Aufgrund dessen, das dieses Projekt für Anfänger nicht mit viel selber programmieren verbunden ist, liegt unsere Fokus in diesem Projekt auf dem verstehen von Code, welchen wir im Internet für unsere App finden.
+
+
 
 
 
