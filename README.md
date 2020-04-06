@@ -16,6 +16,7 @@ Einleitung:
 
 
 
+![MainActivity java_2](https://user-images.githubusercontent.com/54102292/78569709-46c9af80-7824-11ea-94bd-edf9f10f1ee6.png)
 
 
 
