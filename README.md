@@ -38,7 +38,7 @@ Da uns dies zu viel Aufwand ist und wir auch die Möglichkeit mit einem Android 
 
 Wenn man nun ein neues Projekt in Android Studio anfängt, kann man zwischen verschiedenen „*Activitys*“ unterscheiden. Hierbei geht es darum, welche Module die App schon beinhalten sollen:  z.B. eine Navigationsleiste, die sich aufklappen lässt oder dass das Bildschirm-Scrollen schon vorgesehen ist. Dies alles könnte man natürlich auch selber programmieren, über die „*Empty Activity*“. Dies ist eine Vorlage, welche nur eine Leiste mit dem Namen der App oben anzeigt.
 
-![Auswahl_Activitys](https://user-images.githubusercontent.com/54102292/79381432-43d86880-7f62-11ea-8d0e-3188b0ffb12e.png)
+![Auswahl_Activitys_2](https://user-images.githubusercontent.com/54102292/79381685-a467a580-7f62-11ea-86a2-ab6a21e60f91.png)
 
 Nachdem man ein neues Projekt angefangen hat, bietet Android Studio einem viele Hilfestellungen beim Programmieren. So muss man zum Beispiel nicht das gesamte Layout des Bildschirms selber programmieren, sondern kann dies auch durch visuelles einfügen (Drag’n’Drop) von vorhandenen Widgets (Android GUI-Elemente) tun. Neben der Möglichkeit visuell Widget Elemente einzufügen, gibt es in der Entwicklungsumgebung auch eine Ansicht, auf welchem der generierte Java-Source Code angezeigt wird. Prinzipiell ist es möglich, diesen Source Code direkt einzufügen. Die Verwendung von Drag’n’Drop der Widgets ist jedoch schneller und weniger fehleranfällig.
 Somit bleibt einem selber die Entscheidung überlassen, wie man programmieren möchte.
