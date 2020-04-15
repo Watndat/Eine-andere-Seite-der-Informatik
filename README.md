@@ -341,7 +341,7 @@ Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Er
     }
     
    
-ä
+
        
        private void initializeOpenCVDependencies() {
 
@@ -377,6 +377,13 @@ Im Anschluss wird der analysierte Stream mit *FileOutputStream()* verknüpft, um
   
   </details>
   
+  <details>
+ <summary>Die App</summary>
+ 
+ ![GIF_Face_Detection](https://user-images.githubusercontent.com/54102292/79381806-d416ad80-7f62-11ea-9d48-6b214e86d635.gif)
+ 
+ </details>
+ 
 </details>
 
 ---
