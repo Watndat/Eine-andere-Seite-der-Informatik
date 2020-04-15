@@ -38,13 +38,13 @@ Da uns dies zu viel Aufwand ist und wir auch die Möglichkeit mit einem Android 
 
 Wenn man nun ein neues Projekt in Android Studio anfängt, kann man zwischen verschiedenen „*Activitys*“ unterscheiden. Hierbei geht es darum, welche Module die App schon beinhalten sollen:  z.B. eine Navigationsleiste, die sich aufklappen lässt oder dass das Bildschirm-Scrollen schon vorgesehen ist. Dies alles könnte man natürlich auch selber programmieren, über die „*Empty Activity*“. Dies ist eine Vorlage, welche nur eine Leiste mit dem Namen der App oben anzeigt.
 
-# Foto von Android Studio
+![Auswahl_Activitys](https://user-images.githubusercontent.com/54102292/79381432-43d86880-7f62-11ea-8d0e-3188b0ffb12e.png)
 
 Nachdem man ein neues Projekt angefangen hat, bietet Android Studio einem viele Hilfestellungen beim Programmieren. So muss man zum Beispiel nicht das gesamte Layout des Bildschirms selber programmieren, sondern kann dies auch durch visuelles einfügen (Drag’n’Drop) von vorhandenen Widgets (Android GUI-Elemente) tun. Neben der Möglichkeit visuell Widget Elemente einzufügen, gibt es in der Entwicklungsumgebung auch eine Ansicht, auf welchem der generierte Java-Source Code angezeigt wird. Prinzipiell ist es möglich, diesen Source Code direkt einzufügen. Die Verwendung von Drag’n’Drop der Widgets ist jedoch schneller und weniger fehleranfällig.
 Somit bleibt einem selber die Entscheidung überlassen, wie man programmieren möchte.
 GUI-Widgets werden Event-gesteuert programmiert. So liefert das drücken eines Buttons ein Event „*onClick*“ aus. Android Studio zeigt in der Entwicklungsumgebung die von einem Widget unterstützten Events an. Dort kann man Java-Code einfügen, welcher bei Auftreten dieses Events ausgeführt werden soll:
 
-# HIER EIN BILDSCHIRM FOTO, WIE DAS AUSSIEHT
+![activity_main xml_allgemein](https://user-images.githubusercontent.com/54102292/79381461-50f55780-7f62-11ea-9941-4286f8ac9071.png)
 
 Analog zu Events, kann man so auf Attribute von Widgets lesend und / oder schreibend zugreifen. 
 Android Studio generiert automatisch mehrere Dateien, die für die Realisierung der App notwendig sind. Diese sind nicht nur Dateien für Java-Code, sondern können auch andere notwendige Dokumente z.B. in Form von XML-Strukturen sein. 
