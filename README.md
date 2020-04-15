@@ -220,6 +220,7 @@ Ist eine der beiden Bedingungen nicht erfüllt, wird ein Intent erstellt, wodurc
  ![GIF_TestPasswordandUsername](https://user-images.githubusercontent.com/54102292/79380212-679aaf00-7f60-11ea-85b4-ea242c0c2008.gif)
  
  </details>
+ 
   ---
   
 </details>
@@ -234,13 +235,14 @@ Dafür haben wir uns 8 verschiedene Sprüche rausgesucht und mit 8 passenden Bil
   <details>
   <summary>activity_main.xml</summary>
   
-  # Bild 
+  ![activity_main xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79380864-543c1380-7f61-11ea-8403-18534c6e698b.jpg)
+
   
   Das ist der Bildschirm, den man sieht, wenn man die App geöffnet hat. Jedes der acht Rechtecke stellt ein Bild (Icon) dar, welches als Button fungiert. Somit haben wir für jedes Bild die gleichen Attribute. Das heißt die Layout-Attribute (blau) sind alle so eingestellt, dass die Bilder nicht auf den 0-Punkt springen, sondern in einer Reihe bleiben. Alle Bilder die senkrecht in einer Reihe sind, sind untereinander verbunden, sodass sie alle denselben Abstand haben. Auch zu den Seitenrändern haben alle Bilder den gleichen Abstand, damit wir ein einheitliches Bild zum Schluss haben. 
 Jedes Bild hat eine eigene ID (grün), entsprechend zum Spruch. Im Bild sieht man, dass dieses Bild einen Spruch mit Darth Vader enthält, weswegen die ID *darth_vader* heißt.
 Ebenso ist jedes Bild mit dem Attribut *onClick* belegt, damit wir das Bild in der MainActivity.java mit einem Spruch verknüpfen können.
 
-# Bild 
+![res_raw_3](https://user-images.githubusercontent.com/54102292/79380895-628a2f80-7f61-11ea-9e6d-06363b2878b6.png)
 
 Um die Bilder in Android Studio einfügen zu können, muss man die Bilder in den Ressourcen (*res*) unter *drawable* (Ordner für alle graphischen Dateien) einfügen. Danach kann man die Bilder über das Bild-Widget einfügen und die Attribute festlegen. 
 
@@ -251,7 +253,7 @@ Um die Bilder in Android Studio einfügen zu können, muss man die Bilder in den
   
   Damit wir die Bilder auch mit einem Spruch, also einer Audio-Datei verknüpfen konnten, mussten wir diese erstmal in Android Studio einfügen.
   
-  # Bild 
+ ![res_drawable_3](https://user-images.githubusercontent.com/54102292/79380914-6b7b0100-7f61-11ea-9495-9b23220be7f8.png)
   
   Dies hat man, ähnlich wie die Bilder, über die Ressourcen in den *raw*-Ordner eingefügt. Hierbei muss man aber drauf achten, dass das Format der Audio-Datei auch unterstützt wird.
   
@@ -277,6 +279,13 @@ Außerdem startet ein neuer Medienplayer entsprechend zum Bild
 
   </details>
   
+  <details>
+ <summary>Die App</summary>
+ 
+ ![Collage_Dumme Sprüche_2](https://user-images.githubusercontent.com/54102292/79380812-41c1da00-7f61-11ea-92f8-65c388f2f33f.jpg)
+ 
+ </details>
+
   ---
   
 </details>
