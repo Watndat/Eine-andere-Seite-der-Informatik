@@ -170,7 +170,7 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
   <details>
  <summary>Die App</summary>
  
- ![GIF_TestPassword2](https://user-images.githubusercontent.com/54102292/79378505-c27ed700-7f5d-11ea-9f0a-9caeca990701.gif)
+ ![GIF_TestPassword](https://user-images.githubusercontent.com/54102292/79382836-6ff4e900-7f64-11ea-89fe-50bf0979c5a8.gif)
 
  </details>
  
