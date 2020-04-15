@@ -76,8 +76,31 @@ Schuljahr 2019/2020
   
 </details>
 
+<details>
+  <summary>Dumme Sprüche</summary>
+  
+  <details>
+  <summary>activity_main.xml</summary>
+  </details>
+  
+  <details>
+  <summary>MainActivity.java</summary>
+  </details>
+  
+</details>
 
-
+<details>
+  <summary>Face_Detection</summary>
+  
+  <details>
+  <summary>activity_main.xml</summary>
+  </details>
+  
+  <details>
+  <summary>MainActivity.java</summary>
+  </details>
+  
+</details>
 
 ---
 
