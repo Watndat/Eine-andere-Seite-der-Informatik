@@ -77,13 +77,13 @@ Angefangen haben wir erstmal nur mit Android Studio. Hierfür haben wir uns im I
   
   In der *activity_main_xml* wird immer das Aussehen des Bildschirms bestimmt. Hier haben wir festgelegt, dass wir eine Textbox und einen Senden Button angezeigt bekommen wollen. Diese beiden haben wir durch die Palette auf unseren Beispiel Bildschirm festgelegt. Damit die beiden Felder nicht schlussendlich in die linke obere Ecke „springen“, weil dort der Nullpunkt ist, haben wir sie über die Attribute jeweils mit einem bestimmten Abstand zu den Rändern fixiert. Hierdurch ist es möglich, dass die App auf Android Smartphones mit unterschiedlichen Bildschirmauflösungen laufen kann. 
   
-  # Bild 
+ ![activity_main xml (Textbox)_2_zeichnen](https://user-images.githubusercontent.com/54102292/79379380-25bd3900-7f5f-11ea-8739-b2eafef61742.jpg)
   
   Hier sieht man einmal unsere Textbox mit den verschiedenen Attributen an der rechten Seite. In blau sind einmal alle Attribute gekennzeichnet, welche für die Seitenabstände zuständig sind. *layout_marginTop* gibt den Abstand zum oberen Rand des Bildschirms an, dieser ist bei uns als einziger ein fester Wert, damit die Box von dem Abstand immer gleich ist. Die Abstände zu den beiden Seiten, bzw. zum Senden Button ist nicht mit einem festen, sondern mit einem Minimalwert belegt.Das heißt der Abstand zu einer Seite ist minimal 16, kann aber auch größer sein, wenn der eingegebene Text nicht so lang ist.
 Damit diese Funktion auch funktioniert, haben wir die Textbox mit dem Sende Button verknüpft, sodass diese immer den gleichen Abstand zu einander haben. 
 Grün markiert ist die ID, bzw. der Name der Textbox, in diesem Falle heißt sie Passwort. Passwort ist eine ID oder Identifier, über welcher im Java-Code auf die Textbox referenziert werden kann. Der Text, der innerhalb der Textbox angezeigt werden soll, wird vom Typ String (gelb) festgelegt, welche in unserem Falle *text_password* heißt. Dieser String zeigt den eigentlichen Text des Passwords in der App an. Die ID (Verweis auf die Textbox) und der String (Verweis auf den Text innerhalb der Textbox) sind direkt mit der Textbox verbunden, sodass man dies beim weitern programmieren nicht immer wieder tun muss.
 
-# Bild
+![activity_main xml (Button)_2_zeichnen](https://user-images.githubusercontent.com/54102292/79379369-1fc75800-7f5f-11ea-811e-622042cafdd3.jpg)
 
 Bei dem Senden Button haben wir die layout-Attribute (blau) genauso gesetzt wie bei der Textbox, damit sich ein einheitliches Bild ergibt und die Felder den gleichen Abstand zu den Seitenrändern haben. Hier gibt es noch zwei zusätzliche layout-Attribute (orange). Diese sind die Verknüpfung von der Textbox und dem Senden Button. Durch diese beiden Attribute wird eine Baseline von dem Senden Button zur Textbox gezogen, sodass diese beiden miteinander verbunden sind.
 Auch hier haben wir wieder eine ID (grün) und einen String (gelb). Durch den String wird in der App schlussendlichen Senden angezeigt.
@@ -122,7 +122,7 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
   <details>
   <summary>activity_screen2.xml</summary>
   
-  # Bild
+ ![activity_Screen2 xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79379416-34a3eb80-7f5f-11ea-90aa-ce062bcf5a52.jpg)
   
   Auch hier haben wir die Seitenbegrenzungen (blau) genauso wie bei der *main_activity.xml* festgelegt. Genauso haben wir die ID mit einem entsprechenden Namen festgelegt und einen String für das Textfeld erstellt und damit verknüpft. So dass man zum Schluss auf dem Bildschirm nur den Schriftzug „*Hallo*“ erkennt.
   
@@ -144,7 +144,8 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
   <details>
   <summary>activity_screen3.xml</summary>
 
-  # Bild 
+ ![activity_screen3 xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79379465-3ff71700-7f5f-11ea-9640-9c7fd3ebafe4.jpg)
+ 
   Bei der *activity_screen3.xml* haben wir die gleichen Einstellungen wie bei Screen2, da dies beide die Antwort-Bildschirme sind für das Passwort. Der einzige Unterschied den wir hier haben, dass wir einen anderen String (gelb) mit der Textbox verknüpft. Dieser String gibt den Text „*Your Password is wrong*“ aus.
   
   </details>
@@ -162,6 +163,13 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
   
   </details>
   
+  <details>
+ <summary>Die App</summary>
+ 
+ ![GIF_TestPassword2](https://user-images.githubusercontent.com/54102292/79378505-c27ed700-7f5d-11ea-9f0a-9caeca990701.gif)
+
+ </details>
+ 
   ---
   
 </details> 
