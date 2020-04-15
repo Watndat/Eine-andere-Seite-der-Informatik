@@ -276,7 +276,7 @@ Im zweiten Teil des Projektes haben wir nichts mehr selber programmiert, sondern
  <summary><h3>Face_Detection</h3></summary>
   
   Diesen Code haben wir nicht selber programmiert, sondern im Internet recherchiert und genutzt um die App zu bauen. 
-Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Erlaubnis erteilt sein, die Kamera anzuzeigen
+Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Erlaubnis erteilt sein, die Kamera anzuzeigen   
 (*uses-permission android:name="android.permission.CAMERA"*).
 
   <details>
