@@ -64,7 +64,7 @@ Damit man OpenCV in Android Studio integrieren kann, muss man sich die Bibliothe
 ---
 
 ## Das Projekt <a name="4"></a>
---
+
 Angefangen haben wir erstmal nur mit Android Studio. Hierfür haben wir uns im Internet verschiedene Tutorials angeschaut und diese nachgebaut. Dadurch haben wir einen guten Überblick über Android Studio bekommen und gelernt wie man dort grundlegend eine App programmieren kann. Nach den Tutorials haben wir uns selber hingesetzt und die Funktionen und Möglichkeiten von Android Studio ausprobiert. Dadurch sind drei kleine Apps entstanden, die wir komplett selber programmiert haben, und damit unser Grundverständnis für Android Studios gefestigt haben.
 
  <details>
@@ -162,6 +162,8 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
   
   </details>
   
+  ---
+  
 </details> 
 
 <details>
@@ -202,6 +204,8 @@ Wenn diese beiden Bedingungen erfüllt sind, wird wieder ein neuer Intent erstel
 Ist eine der beiden Bedingungen nicht erfüllt, wird ein Intent erstellt, wodurch *Screen3.java* aktiviert wird und man den dritten Bildschirm sieht. Dieser gleicht fast dem aus der App TestPassword, bis auf das dort steht „*Your Password or Username is wrong*“.
 
   </details>
+  
+  ---
   
 </details>
 
@@ -257,6 +261,8 @@ Außerdem startet ein neuer Medienplayer entsprechend zum Bild
 (*icon = MedienPlayer.create (this, R.raw.darth_vader)*). Hierbei wird auf die Audiodatei zugegriffen, welche wir vorher in den Ressourcen im *raw*-Ordner gespeichert haben. Zum Schluss wird der Medienplayer dann jeweils noch gestartet.
 
   </details>
+  
+  ---
   
 </details>
 
