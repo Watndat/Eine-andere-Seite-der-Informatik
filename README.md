@@ -6,6 +6,11 @@ Schuljahr 2019/2020
 
 ---
 
+![Collage_Dumme Sprüche_2](https://user-images.githubusercontent.com/54102292/79374533-ad9f4500-7f57-11ea-98a3-22243fe2f702.jpg)
+
+
+---
+
 ![SVID_20200324_152115_1-1](https://user-images.githubusercontent.com/54102292/79371201-4338d580-7f54-11ea-9db8-67a7a0f566a1.gif)
 
 ---
