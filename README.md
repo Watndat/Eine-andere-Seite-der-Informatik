@@ -64,7 +64,7 @@ Damit man OpenCV in Android Studio integrieren kann, muss man sich die Bibliothe
 ---
 
 ## Das Projekt <a name="4"></a>
-
+--
 Angefangen haben wir erstmal nur mit Android Studio. Hierfür haben wir uns im Internet verschiedene Tutorials angeschaut und diese nachgebaut. Dadurch haben wir einen guten Überblick über Android Studio bekommen und gelernt wie man dort grundlegend eine App programmieren kann. Nach den Tutorials haben wir uns selber hingesetzt und die Funktionen und Möglichkeiten von Android Studio ausprobiert. Dadurch sind drei kleine Apps entstanden, die wir komplett selber programmiert haben, und damit unser Grundverständnis für Android Studios gefestigt haben.
 
  <details>
