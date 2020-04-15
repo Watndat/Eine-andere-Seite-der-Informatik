@@ -185,7 +185,7 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
  ![activity_main xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79380195-610c3780-7f60-11ea-9697-512e0d8fc853.jpg)
 
   
-  Dadurch ist der Code auch überwiegend gleich, bis auf das wir in der *activity_main.xml* noch ein weiteres Textfeld für den Benutzer Namen eingefügt haben und dieses Textfeld mit einem String (gelb) verknüpft haben, damit auf dem Bildschirm Username steht.
+  Dadurch ist der Code auch überwiegend gleich, bis auf das wir in der *activity_main.xml* noch ein weiteres Textfeld für den Benutzer Namen eingefügt (die Textbox und der Button sind gleich geblieben) haben und dieses Textfeld mit einem String (gelb) verknüpft haben, damit auf dem Bildschirm Username steht.
 Die Layoutbegrenzungen und Abstände (blau) sind gleichgeblieben und die ID (grün) haben wir entsprechend des Textfeldes gewählt.
 
   </details>
