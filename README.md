@@ -287,6 +287,11 @@ Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Er
         
   Hierbei wird die Kamera durch das Layout über den gesamten Bildschirm angezeigt (*layout_width = „match_parent“*). Ebenfalls wird eine ID der Kamera zugefügt, sodass man sie später in der MainActivity.java verknüpfen kann. Weiterhin wurde festgelegt, dass eine textuelle Anzeige über die Anzahl der Bilder pro Sekunde innerhalb des Kamerabildes angezeigt werden soll. (*show_fps =“true“*).
   
+  </details>
+  
+  <details>
+  <summary>MainActivity.java</summary>
+  
      private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         
         public void onManagerConnected(int status) {
@@ -302,7 +307,9 @@ Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Er
     }
     
    
-    private void initializeOpenCVDependencies() {
+ä
+       
+       private void initializeOpenCVDependencies() {
 
         try {
             // Copy the resource into a temp file so OpenCV can load it
@@ -330,10 +337,10 @@ Im Anschluss wird der analysierte Stream mit *FileOutputStream()* verknüpft, um
         setContentView(openCvCameraView);
         openCvCameraView.setCvCameraViewListener(this);
         
-  </details>
+  In einer weiteren Funktion wird die Java-Kamera, welche in der *activity_main.xml* programmiert wurde, als die OpenCV Kamera definiert. Wobei ebenfalls ein *CameraViewListner* auf die Kamera gesetzt wird.
   
-  <details>
-  <summary>MainActivity.java</summary>
+  In der letzten Funktion, passiert die eigentliche Gesichtserkennung. Als erstes wird das einzelne Bild in Graustufen (*greyscale*) umgewandelt. Dieses wird dann in den *CascadeClassifier* eingebunden und auf Gesichter untersucht. Wenn Gesichter gefunden werden, wird ein grünes Rechteck in Größe des Gesichtes um das Gesicht eingeblendet. Zum Schluss wird ein Bild wieder zurückgegeben, sodass auf dem Bildschirm in der App auch das Rechteck zu sehen ist.
+  
   </details>
   
 </details>
@@ -341,3 +348,7 @@ Im Anschluss wird der analysierte Stream mit *FileOutputStream()* verknüpft, um
 ---
 
 ## Fazit <a name="5"></a>
+
+Abschließend kann man zu diesem Projekt sagen, dass es uns sehr viel Spaß gemacht hat und wir sehr viel Neues gelernt haben. Und dies nicht nur darauf bezogen, dass wir gelernt haben Apps zu programmieren. Sondern auch darauf, wie man Code im Internet richtig recherchiert und diesen dann auch versteht. Deswegen heißt es ja auch: Copy Right 
+Es hat uns auch gezeigt, was man sich gut selber beibringen kann, wie zum Beispiel das Programmieren eigener kleiner App. Hierfür brauchte man keine Vorkenntnisse. Mit genügen Zeit und Interesse konnten wir uns das sehr gut selber beibringen. 
+Allerdings haben wir auch gemerkt, wo man als Anfänger an seine Grenzen kommt. Unsere ersten Pläne und Ziele für unsere App waren für uns zu hochgesteckt, sodass wir diese im Laufe der Zeit unseren Fähigkeiten und unserem Zeitraum anpassen mussten. Trotzdem sind wir sehr zufrieden mit unserem Endergebnis, und sind froh darüber, dass wir dieses Projekt, trotz mancher Schwierigkeiten, durchgezogen haben.
