@@ -8,9 +8,9 @@ Schuljahr 2019/2020
 
 ![SVID_20200324_152115_1-1](https://user-images.githubusercontent.com/54102292/79371201-4338d580-7f54-11ea-9db8-67a7a0f566a1.gif)
 
+---
 
-
-
+![GIF_TestPasswordandUsername](https://user-images.githubusercontent.com/54102292/79371435-ac204d80-7f54-11ea-808c-d400b16a63a1.gif)
 
 ---
 
