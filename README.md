@@ -68,12 +68,12 @@ Damit man OpenCV in Android Studio integrieren kann, muss man sich die Bibliothe
 Angefangen haben wir erstmal nur mit Android Studio. Hierfür haben wir uns im Internet verschiedene Tutorials angeschaut und diese nachgebaut. Dadurch haben wir einen guten Überblick über Android Studio bekommen und gelernt wie man dort grundlegend eine App programmieren kann. Nach den Tutorials haben wir uns selber hingesetzt und die Funktionen und Möglichkeiten von Android Studio ausprobiert. Dadurch sind drei kleine Apps entstanden, die wir komplett selber programmiert haben, und damit unser Grundverständnis für Android Studios gefestigt haben.
 
  <details>
-    <summary> <h2>TestPassword </h2> </summary>
+   <summary><h2>TestPassword </h2></summary>
 
   Bei dieser App geht es darum, dass wir ein festes Passwort programmiert haben, welches man in eine Textbox eingeben muss. Nach abschicken des Passwortes, wird man entweder begrüßt oder einem wird mitgeteilt, dass das Passwort falsch ist.
   
   <details>
-    <h3> <summary>activity_main.xml</summary> </h3>
+    <summary>activity_main.xml</summary>
   
   In der *activity_main_xml* wird immer das Aussehen des Bildschirms bestimmt. Hier haben wir festgelegt, dass wir eine Textbox und einen Senden Button angezeigt bekommen wollen. Diese beiden haben wir durch die Palette auf unseren Beispiel Bildschirm festgelegt. Damit die beiden Felder nicht schlussendlich in die linke obere Ecke „springen“, weil dort der Nullpunkt ist, haben wir sie über die Attribute jeweils mit einem bestimmten Abstand zu den Rändern fixiert. Hierdurch ist es möglich, dass die App auf Android Smartphones mit unterschiedlichen Bildschirmauflösungen laufen kann. 
   
