@@ -165,7 +165,7 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
 </details> 
 
 <details>
-  <summary>TestPasswordandUsername</summary>
+ <summary><h3>TestPasswordandUsername</h3></summary>
   
   Die App TestPasswordandUsername ist die erweiterte Version von der App TestPassword2. Wir haben sie in dem Sinne erweitert, dass wir zu dem Passwort noch einen Benutzter Namen hinzugefügt haben. Beides ist wie in der App TestPassword fest programmiert, das heißt man kann es nur im Code ändern und nicht beim Benutzten der App festlegen.
   
@@ -206,7 +206,7 @@ Ist eine der beiden Bedingungen nicht erfüllt, wird ein Intent erstellt, wodurc
 </details>
 
 <details>
-  <summary>Dumme Sprüche</summary>
+ <summary><h3>Dumme Sprüche</h3></summary>
   
   Unsere letzte App die wir programmiert haben, bevor wir OpenCV mit eingebunden haben, ist die App „Dumme Sprüche“. Die App ist angelehnt an schon existierende Apps, wo man auf Buttons klicken kann und dann verschiedene Sounds ertönen. Dies wollten wir als „Abschluss“ nachprogrammieren, nur mit verschiedenen Sprüchen. 
 
@@ -267,7 +267,7 @@ Nun hatten wir es geschafft die Kamera anzeigen zulassen, allerdings hatten wir 
 Im zweiten Teil des Projektes haben wir nichts mehr selber programmiert, sondern Codes aus dem Internet genutzt. Allerdings lag hier das Hauptaugenmerk darauf, dass wir diese Codes verstehen und daraus lernen wie eine solche App aufgebaut ist und wie man Bibliotheken wie OpenCV richtig nutzt.
 
 <details>
-  <summary>Face_Detection</summary>
+ <summary><h3>Face_Detection</h3></summary>
   
   Diesen Code haben wir nicht selber programmiert, sondern im Internet recherchiert und genutzt um die App zu bauen. 
 Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Erlaubnis erteilt sein, die Kamera anzuzeigen
