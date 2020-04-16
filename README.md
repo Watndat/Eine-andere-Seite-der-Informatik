@@ -61,7 +61,7 @@ Für unser Projekt war die Videoerfassung und das maschinelle Lernen wichtig, da
 
 Damit man OpenCV in Android Studio integrieren kann, muss man sich die Bibliothek erstmal runterladen. Danach kann man die Bibliothek als ein neues Modul in ein Projekt importieren. Hierbei tritt dann aber immer ein Fehler auf, da OpenCV einen ältere Android SDK Version nutzt, als die, die auf dem Computer installiert ist. Hierfür muss einfach nur die SDK Version im *build.gradle* auf die aktuellste Android SDK Version geändert werden. *Build.gradle* wird von Android Studio verwendet, um den Entwicklungsprozess bestehend aus Java-Code und Bibliotheken eine ausführbare App in Form einer JAR-Datei zu steuern. Nun ist die Bibliothek grundsätzlich im Projekt integriert, allerdings wird sie einem noch nicht angezeigt. Um dies zu erreichen, muss man OpenCV als neues Modul in der Projektstruktur eingebunden werden.
 
-![Einbindung_OpenCV](https://user-images.githubusercontent.com/54102292/79381277-0673db00-7f62-11ea-9295-911b1a61d86c.png)
+![Einbindung_OpenCV_2](https://user-images.githubusercontent.com/54102292/79425714-67cb9680-7fc2-11ea-9150-509804df161a.png)
 
 Nun kann man die Funktionen von OpenCV in Java nutzen, in dem man entsprechende Import Strukturen zu Beginn des Source Codes angibt. 
 
@@ -181,7 +181,7 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
 <details>
  <summary><h3>TestPasswordandUsername</h3></summary>
   
-  Die App TestPasswordandUsername ist die erweiterte Version von der App TestPassword2. Wir haben sie in dem Sinne erweitert, dass wir zu dem Passwort noch einen Benutzter Namen hinzugefügt haben. Beides ist wie in der App TestPassword fest programmiert, das heißt man kann es nur im Code ändern und nicht beim Benutzten der App festlegen.
+  Die App TestPasswordandUsername ist die erweiterte Version von der App TestPassword. Wir haben sie in dem Sinne erweitert, dass wir zu dem Passwort noch einen Benutzter Namen hinzugefügt haben. Beides ist wie in der App TestPassword fest programmiert, das heißt man kann es nur im Code ändern und nicht beim Benutzten der App festlegen.
   
   <details>
   <summary>activity_main.xml</summary>
@@ -381,6 +381,14 @@ Im Anschluss wird der analysierte Stream mit *FileOutputStream()* verknüpft, um
  <summary>Die App</summary>
  
  ![GIF_Face_Detection](https://user-images.githubusercontent.com/54102292/79381806-d416ad80-7f62-11ea-9d48-6b214e86d635.gif)
+ 
+ Sämtliche Quellen sind bei uns im Stundenblog zu finden:
+ 
+ https://github.com/Watndat/Stundenblog
+ 
+ Die Quelle für den Code, den wir bei der App Face_Detection genutzt haben, ist diese:
+ 
+ https://www.mirkosertic.de/blog/2013/07/realtime-face-detection-on-android-using-opencv/
  
  </details>
  
