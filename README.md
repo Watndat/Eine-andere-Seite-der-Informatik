@@ -211,7 +211,7 @@ Dafür haben wir uns 8 verschiedene Sprüche rausgesucht und mit 8 passenden Bil
 Jedes Bild hat eine eigene ID (grün), entsprechend zum Spruch. Im Bild sieht man, dass dieses Bild einen Spruch mit Darth Vader enthält, weswegen die ID *darth_vader* heißt.
 Ebenso ist jedes Bild mit dem Attribut *onClick* belegt, damit wir das Bild in der MainActivity.java mit einem Spruch verknüpfen können.
 
-![res_raw_3](https://user-images.githubusercontent.com/54102292/79380895-628a2f80-7f61-11ea-9e6d-06363b2878b6.png)
+![res_drawable_3](https://user-images.githubusercontent.com/54102292/79380914-6b7b0100-7f61-11ea-9495-9b23220be7f8.png)
 
 Um die Bilder in Android Studio einfügen zu können, muss man die Bilder in den Ressourcen (*res*) unter *drawable* (Ordner für alle graphischen Dateien) einfügen. Danach kann man die Bilder über das Bild-Widget einfügen und die Attribute festlegen. 
 
@@ -219,7 +219,7 @@ Um die Bilder in Android Studio einfügen zu können, muss man die Bilder in den
   
   Damit wir die Bilder auch mit einem Spruch, also einer Audio-Datei verknüpfen konnten, mussten wir diese erstmal in Android Studio einfügen.
   
- ![res_drawable_3](https://user-images.githubusercontent.com/54102292/79380914-6b7b0100-7f61-11ea-9495-9b23220be7f8.png)
+ ![res_raw_3](https://user-images.githubusercontent.com/54102292/79380895-628a2f80-7f61-11ea-9e6d-06363b2878b6.png)
   
   Dies hat man, ähnlich wie die Bilder, über die Ressourcen in den *raw*-Ordner eingefügt. Hierbei muss man aber drauf achten, dass das Format der Audio-Datei auch unterstützt wird.
   
