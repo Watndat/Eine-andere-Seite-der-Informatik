@@ -71,13 +71,11 @@ Nun kann man die Funktionen von OpenCV in Java nutzen, in dem man entsprechende 
 
 Angefangen haben wir erstmal nur mit Android Studio. Hierfür haben wir uns im Internet verschiedene Tutorials angeschaut und diese nachgebaut. Dadurch haben wir einen guten Überblick über Android Studio bekommen und gelernt wie man dort grundlegend eine App programmieren kann. Nach den Tutorials haben wir uns selber hingesetzt und die Funktionen und Möglichkeiten von Android Studio ausprobiert. Dadurch sind drei kleine Apps entstanden, die wir komplett selber programmiert haben, und damit unser Grundverständnis für Android Studios gefestigt haben.
 
- <details>
-   <summary><h3>TestPassword</h3></summary>
+### TestPassword
 
   Bei dieser App geht es darum, dass wir ein festes Passwort programmiert haben, welches man in eine Textbox eingeben muss. Nach abschicken des Passwortes, wird man entweder begrüßt oder einem wird mitgeteilt, dass das Passwort falsch ist.
   
-  <details>
-    <summary>activity_main.xml</summary>
+#### activity_main.xml
   
   In der *activity_main_xml* wird immer das Aussehen des Bildschirms bestimmt. Hier haben wir festgelegt, dass wir eine Textbox und einen Senden Button angezeigt bekommen wollen. Diese beiden haben wir durch die Palette auf unseren Beispiel Bildschirm festgelegt. Damit die beiden Felder nicht schlussendlich in die linke obere Ecke „springen“, weil dort der Nullpunkt ist, haben wir sie über die Attribute jeweils mit einem bestimmten Abstand zu den Rändern fixiert. Hierdurch ist es möglich, dass die App auf Android Smartphones mit unterschiedlichen Bildschirmauflösungen laufen kann. 
   
@@ -93,10 +91,8 @@ Bei dem Senden Button haben wir die layout-Attribute (blau) genauso gesetzt wie 
 Auch hier haben wir wieder eine ID (grün) und einen String (gelb). Durch den String wird in der App schlussendlichen Senden angezeigt.
 Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Event-Attribut kann man die *activity_main.xm*l mit der *MainActivity.java* verknüpfen. Dies brauchen wir, damit wenn der Senden Button gedrückt wird, die nächste Seite angezeigt werden kann.
 
-  </details>
-  
-  <details>
-  <summary>MainActivity.java</summary>
+
+#### MainActivity.java
   
       public void  OnClickListner (View view){
         EditText Password_eingabe= (EditText) findViewById(R.id.Password);
@@ -121,19 +117,15 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
     Intent Password_wrong = new Intent (this, Screen3.class)
  Auch hier starten wir die Activity durch *startActivity(Password_wrong)* ,wodurch der Bildschirm angezeigt wird, wenn das Passwort falsch ist.
   
-  </details>
   
-  <details>
-  <summary>activity_screen2.xml</summary>
+#### activity_screen2.xml
   
  ![activity_Screen2 xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79379416-34a3eb80-7f5f-11ea-90aa-ce062bcf5a52.jpg)
   
   Auch hier haben wir die Seitenbegrenzungen (blau) genauso wie bei der *main_activity.xml* festgelegt. Genauso haben wir die ID mit einem entsprechenden Namen festgelegt und einen String für das Textfeld erstellt und damit verknüpft. So dass man zum Schluss auf dem Bildschirm nur den Schriftzug „*Hallo*“ erkennt.
   
-  </details>
   
-  <details>
-  <summary>Screen2.java</summary>
+#### Screen2.java
   
       protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -143,19 +135,13 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
  
  Hier haben wir in die allgemeine Funktion, welche durch Android Studio automatisch erstellt wird, einen Intent erstellt. Hierdurch wird sichergestellt, dass der Intent von *MainActivity.java* verknüpft wird, so dass der Bildschirm *activity_screen2.xml* aktiviert und angezeigt wird.
   
-  </details>
-  
-  <details>
-  <summary>activity_screen3.xml</summary>
+#### activity_screen3.xml
 
  ![activity_screen3 xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79379465-3ff71700-7f5f-11ea-9640-9c7fd3ebafe4.jpg)
  
   Bei der *activity_screen3.xml* haben wir die gleichen Einstellungen wie bei Screen2, da dies beide die Antwort-Bildschirme sind für das Passwort. Der einzige Unterschied den wir hier haben, dass wir einen anderen String (gelb) mit der Textbox verknüpft. Dieser String gibt den Text „*Your Password is wrong*“ aus.
   
-  </details>
-  
-  <details>
-  <summary>Screen3.java</summary>
+#### Screen3.java
   
       protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -165,26 +151,17 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
     
   Auch hier haben wir das gleiche gemacht wie bei Screen2. Das heißt wir haben nur die vorgegebene Funktion angepasst, indem wir gesagt haben das Intent von *MainActivity.java* ankommen soll. Dadurch wird dann der Bildschirm von *activity_screen3.xml* angezeigt.
   
-  </details>
-  
-  <details>
- <summary>Die App</summary>
+ #### Die App
  
  ![GIF_TestPassword](https://user-images.githubusercontent.com/54102292/79382836-6ff4e900-7f64-11ea-89fe-50bf0979c5a8.gif)
-
- </details>
  
   ---
   
-</details> 
+### TestPasswordandUsername
 
-<details>
- <summary><h3>TestPasswordandUsername</h3></summary>
-  
   Die App TestPasswordandUsername ist die erweiterte Version von der App TestPassword. Wir haben sie in dem Sinne erweitert, dass wir zu dem Passwort noch einen Benutzter Namen hinzugefügt haben. Beides ist wie in der App TestPassword fest programmiert, das heißt man kann es nur im Code ändern und nicht beim Benutzten der App festlegen.
   
-  <details>
-  <summary>activity_main.xml</summary>
+#### activity_main.xml
   
  ![activity_main xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79380195-610c3780-7f60-11ea-9697-512e0d8fc853.jpg)
 
@@ -192,10 +169,7 @@ Zum Schluss haben wir noch das Event-Attribut *onClick* (lila). Durch dieses Eve
   Dadurch ist der Code auch überwiegend gleich, bis auf das wir in der *activity_main.xml* noch ein weiteres Textfeld für den Benutzer Namen eingefügt (die Textbox und der Button sind gleich geblieben) haben und dieses Textfeld mit einem String (gelb) verknüpft haben, damit auf dem Bildschirm Username steht.
 Die Layoutbegrenzungen und Abstände (blau) sind gleichgeblieben und die ID (grün) haben wir entsprechend des Textfeldes gewählt.
 
-  </details>
-  
-  <details>
-  <summary>MainActivity.java</summary>
+#### ActivityMain.java
   
         public void  OnClickListner (View view){
         EditText Password_eingabe= (EditText) findViewById(R.id.Password);
@@ -216,28 +190,19 @@ Wenn diese beiden Bedingungen erfüllt sind, wird wieder ein neuer Intent erstel
 
 Ist eine der beiden Bedingungen nicht erfüllt, wird ein Intent erstellt, wodurch *Screen3.java* aktiviert wird und man den dritten Bildschirm sieht. Dieser gleicht fast dem aus der App TestPassword, bis auf das dort steht „*Your Password or Username is wrong*“.
 
-  </details>
-  
-  <details>
- <summary>Die App</summary>
+ #### Die App
  
  ![GIF_TestPasswordandUsername](https://user-images.githubusercontent.com/54102292/79380212-679aaf00-7f60-11ea-85b4-ea242c0c2008.gif)
- 
- </details>
- 
+  
   ---
-  
-</details>
+ 
+### Dumme Sprüche
 
-<details>
- <summary><h3>Dumme Sprüche</h3></summary>
-  
   Unsere letzte App die wir programmiert haben, bevor wir OpenCV mit eingebunden haben, ist die App „Dumme Sprüche“. Die App ist angelehnt an schon existierende Apps, wo man auf Buttons klicken kann und dann verschiedene Sounds ertönen. Dies wollten wir als „Abschluss“ nachprogrammieren, nur mit verschiedenen Sprüchen. 
 
 Dafür haben wir uns 8 verschiedene Sprüche rausgesucht und mit 8 passenden Bilder, die wir als Buttons benutzten wollen, verknüpft.
  
-  <details>
-  <summary>activity_main.xml</summary>
+ #### activity_main.xml
   
   ![activity_main xml_2_zeichnen](https://user-images.githubusercontent.com/54102292/79380864-543c1380-7f61-11ea-8403-18534c6e698b.jpg)
 
@@ -250,10 +215,7 @@ Ebenso ist jedes Bild mit dem Attribut *onClick* belegt, damit wir das Bild in d
 
 Um die Bilder in Android Studio einfügen zu können, muss man die Bilder in den Ressourcen (*res*) unter *drawable* (Ordner für alle graphischen Dateien) einfügen. Danach kann man die Bilder über das Bild-Widget einfügen und die Attribute festlegen. 
 
-  </details>
-  
-  <details>
-  <summary>MainActivity.java</summary>
+  #### MainActivity.java
   
   Damit wir die Bilder auch mit einem Spruch, also einer Audio-Datei verknüpfen konnten, mussten wir diese erstmal in Android Studio einfügen.
   
@@ -281,18 +243,11 @@ Innerhalb dieser Funktion haben wir es für die Bilder jeweils ein *ImageView* m
 Außerdem startet ein neuer Medienplayer entsprechend zum Bild
 (*icon = MedienPlayer.create (this, R.raw.darth_vader)*). Hierbei wird auf die Audiodatei zugegriffen, welche wir vorher in den Ressourcen im *raw*-Ordner gespeichert haben. Zum Schluss wird der Medienplayer dann jeweils noch gestartet.
 
-  </details>
-  
-  <details>
- <summary>Die App</summary>
+ #### Die App
  
  ![Collage_Dumme Sprüche_2](https://user-images.githubusercontent.com/54102292/79380812-41c1da00-7f61-11ea-92f8-65c388f2f33f.jpg)
  
- </details>
-
   ---
-  
-</details>
 
 Nachdem wir uns sicher im Umgang mit Android Studio fühlten und einige eigene Apps programmiert haben, haben wir den nächsten Schritt zum Endziel gemacht. Wir haben uns die Bibliothek OpenCV runtergeladen und mit Hilfe eines Tutorials diese in OpenCV eingebunden. 
 
@@ -300,15 +255,13 @@ Danach kam die nächste Hürde für uns: Für unsere App brauchten wir die Kamer
 Nun hatten wir es geschafft die Kamera anzeigen zulassen, allerdings hatten wir noch keine Funktionen für die Gesichtserkennung. Deswegen folgte wieder eine langdauernde Recherche im Internet, wo wir dann auch fündig geworden sind und eine gute Vorlage für unsere App Face_Detection hatten. 
 Im zweiten Teil des Projektes haben wir nichts mehr selber programmiert, sondern Codes aus dem Internet genutzt. Allerdings lag hier das Hauptaugenmerk darauf, dass wir diese Codes verstehen und daraus lernen wie eine solche App aufgebaut ist und wie man Bibliotheken wie OpenCV richtig nutzt.
 
-<details>
- <summary><h3>Face_Detection</h3></summary>
+### Face_Detection
   
   Diesen Code haben wir nicht selber programmiert, sondern im Internet recherchiert und genutzt um die App zu bauen. 
 Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Erlaubnis erteilt sein, die Kamera anzuzeigen   
 (*uses-permission android:name="android.permission.CAMERA"*).
 
-  <details>
-  <summary>activity_main.xml</summary>
+ #### activity_main.xml
   
   Anders als in den vorherigen Apps, haben wir das Layout bzw. die Kamera, diesmal nicht über das Designtool von Android Studio programmiert, sondern über das Texttool. 
         
@@ -321,10 +274,7 @@ Damit die Kamera auch angezeigt werden kann, muss in dem Manifest der App die Er
         
   Hierbei wird die Kamera durch das Layout über den gesamten Bildschirm angezeigt (*layout_width = „match_parent“*). Ebenfalls wird eine ID der Kamera zugefügt, sodass man sie später in der MainActivity.java verknüpfen kann. Weiterhin wurde festgelegt, dass eine textuelle Anzeige über die Anzahl der Bilder pro Sekunde innerhalb des Kamerabildes angezeigt werden soll. (*show_fps =“true“*).
   
-  </details>
-  
-  <details>
-  <summary>MainActivity.java</summary>
+  #### MainActivity.java
   
      private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         
@@ -375,10 +325,7 @@ Im Anschluss wird der analysierte Stream mit *FileOutputStream()* verknüpft, um
   
   In der letzten Funktion, passiert die eigentliche Gesichtserkennung. Als erstes wird das einzelne Bild in Graustufen (*greyscale*) umgewandelt. Dieses wird dann in den *CascadeClassifier* eingebunden und auf Gesichter untersucht. Wenn Gesichter gefunden werden, wird ein grünes Rechteck in Größe des Gesichtes um das Gesicht eingeblendet. Zum Schluss wird ein Bild wieder zurückgegeben, sodass auf dem Bildschirm in der App auch das Rechteck zu sehen ist.
   
-  </details>
-  
-  <details>
- <summary>Die App</summary>
+ #### Die App
  
  ![GIF_Face_Detection](https://user-images.githubusercontent.com/54102292/79381806-d416ad80-7f62-11ea-9d48-6b214e86d635.gif)
  
@@ -390,10 +337,6 @@ Im Anschluss wird der analysierte Stream mit *FileOutputStream()* verknüpft, um
  
  https://www.mirkosertic.de/blog/2013/07/realtime-face-detection-on-android-using-opencv/
  
- </details>
- 
-</details>
-
 ---
 
 ## Fazit <a name="5"></a>
